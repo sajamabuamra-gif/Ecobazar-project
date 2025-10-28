@@ -1,0 +1,19 @@
+body{
+    height: 50000px;
+}
+.first-nav{
+        color: #2B572E;
+}
+.first-nav nav{
+            padding: 2px;
+
+}
+.first-nav a{
+        color: #2B572E;
+
+}
+.adress{
+    font-style: normal;
+    line-height: inherit;
+    margin-bottom: 0;
+}
