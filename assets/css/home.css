@@ -1,0 +1,73 @@
+/*What Shopex Offer!*/
+.What-Shopex-Offer{
+    padding: 50px 0;
+}
+.What-Shopex-Offer .row{
+    justify-content: flex-start;
+    gap: 15px;
+}
+.oferr{
+    flex-grow: 1;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    border-bottom : #999999 0.5px solid;
+}
+.ofeer-img{
+    position: relative;
+    padding: 15px 15px 20px;
+    border-radius: 4px;
+    height: 80px;
+    background-image: url('../img/homepage/services/background-blue.svg');
+    background-repeat: no-repeat;
+     background-size: 30%; 
+  background-position: center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ofeer-img svg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transition: opacity 0.3s ease;
+}
+.green-icon {
+  opacity: 1;
+}
+
+.white-icon {
+  opacity: 0;
+}
+
+.offer-details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    transition: all .6s;
+}
+
+.offer-details p {
+    padding-bottom: 10px;
+    color: rgb(26, 11, 91,32%);
+}
+.offer-text{
+    color: #151875;
+    font-size: medium;
+    padding-bottom: 5px;
+        padding-top: 5px;
+}
+.oferr:hover .ofeer-img {
+  background-image: url('../img/homepage/services/background-green.svg');
+}
+
+.oferr:hover .ofeer-img .green-icon {
+  opacity: 0;
+}
+
+.oferr:hover .ofeer-img .white-icon {
+  opacity: 1;
+}
+.oferr:hover {
+    border-bottom : #00B207 2px solid;
+}
