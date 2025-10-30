@@ -196,4 +196,46 @@
    color: #00B207 ; 
    font-weight: bold;
 }
+/*why chose us*/
+.why-chose-us {
+  padding: 60px 0;
+  background-image: url('../img/homepage/hero/BG-2.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.feature-box h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.feature-box p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #555;
+}
+
+.shop-btn {
+  background-color: #00B207;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.shop-btn:hover {
+  background-color: #009a06;
+}
+
+
 
