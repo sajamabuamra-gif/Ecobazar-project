@@ -71,3 +71,94 @@
 .oferr:hover {
     border-bottom : #00B207 2px solid;
 }
+/*Featured Products*/
+.h2-feat{
+  padding: 20px 0;
+}
+.Featured-Products .row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+} 
+.card{
+        width: calc((100% - 30px) / 4);
+
+}
+.card-title{
+  color: #4D4D4D;
+}
+.leatest-info{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.new-price{
+    text-decoration-line: line-through;
+    color: #999999;
+   
+}
+.shopping-pag{
+   position: relative;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+     background-size: 30%; 
+  background-position: center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.shopping-pag svg {
+  position: absolute;
+  transition: opacity 0.3s ease;
+}
+.sale {
+    top: 20px;
+    left: 40px;
+    background-color: #EA4B48;
+    border-radius: 4px;
+    padding: 5px;
+}
+.p-icon {
+  position: absolute;
+  top: 60px;
+  right: 7px;
+  display: none; 
+  flex-direction: column; 
+  align-items: center;
+  row-gap : 7px; 
+  z-index: 10;
+}
+.icon-only {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#fff;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.card:hover .shopping-pag {
+  background-color: #00B207;
+}
+
+.card:hover .shopping-pag  .green-icon {
+  opacity: 0;
+}
+
+.card:hover .shopping-pag  .white-icon {
+  opacity: 1;
+}
+.card:hover {
+    border : #00B207 2px solid;
+}
+.card:hover p{
+    color : #00B207 ;
+}
+.card:hover .p-icon {
+   display: flex;
+}
