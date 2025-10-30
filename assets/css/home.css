@@ -52,9 +52,8 @@
     color: rgb(26, 11, 91,32%);
 }
 .offer-text{
-    color: #151875;
     font-size: medium;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
         padding-top: 5px;
 }
 .oferr:hover .ofeer-img {
@@ -72,6 +71,9 @@
     border-bottom : #00B207 2px solid;
 }
 /*Featured Products*/
+.Featured-Products{
+  padding-bottom: 100px ;
+}
 .h2-feat{
   padding: 20px 0;
 }
@@ -162,3 +164,36 @@
 .card:hover .p-icon {
    display: flex;
 }
+/* top catagouries*/
+.top-catagourios{
+  padding: 50px 0 ;
+  background-image: url('../img/homepage/hero/BG.webp');
+}
+.catagouris{
+    flex-grow: 1;
+    flex-basis: 100px;
+    flex-shrink: 0;
+  
+  }
+.catagouris-info{
+  border : #999999 0.5px solid;
+    border-radius: 10px;
+      padding-top: 20px;
+}
+.catagouris-img{
+      padding: 15px 15px 20px;
+    border-radius: 4px;
+    height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.catagouris:hover .catagouris-info{
+   border : #00B207 2px solid; 
+   box-shadow: 4px 4px 4px #b6fab9;
+}
+.catagouris:hover .offer-text{
+   color: #00B207 ; 
+   font-weight: bold;
+}
+
