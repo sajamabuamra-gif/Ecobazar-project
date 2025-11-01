@@ -235,6 +235,12 @@
 .shop-btn:hover {
   background-color: #009a06;
 }
-
+/*weekly offers*/
+.weekly-offers{
+  padding: 50px 0;
+  background-image: url('../img/public/BG-banner.webp');
+  background-size: cover;
+  background-position: center;
+}
 
 
