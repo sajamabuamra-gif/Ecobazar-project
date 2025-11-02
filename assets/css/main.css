@@ -1,6 +1,9 @@
 .first-nav{
         color: #2B572E;
 }
+.first-nav .dropdown-menu{
+        z-index: 1999;
+}
 .first-nav nav{
             padding: 2px;
 

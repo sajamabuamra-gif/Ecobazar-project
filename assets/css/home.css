@@ -242,5 +242,41 @@
   background-size: cover;
   background-position: center;
 }
+/*Best-seller-products*/
+.Best-seller-products{
+  padding: 50px;
+  
+}
+.Best-seller-products .row{
+    flex-wrap: nowrap;
+    gap: 5px;
+    overflow-x: auto;
+}
+.Best-seller-products .logo {
+    width: calc((100% - 20px) / 5);
+}
+.Best-seller-products image {
+    width: 200px;
+    height: 200px;
+}
+@media screen and (max-width:991px) {
+   .Best-seller-products .logo{
+        width: calc((100% - 10px) / 3);
+    }
+}
+@media screen and (max-width:630px) {
+   .Best-seller-products .logo{
+        width: calc((100% - 5px) / 2);
+    }
+}
+@media screen and (max-width:455px) {
+   .Best-seller-products .logo{
+        width: 100%;
+    }
+    .Best-seller-products image {
+    width: 100px;
+    height: 100px;
+}
+}
 
 
