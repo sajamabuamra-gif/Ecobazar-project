@@ -363,8 +363,21 @@ display: flex;
 .Latest-News .btn {
   color: #00B207;
 }
-.Latest-News:hover .card-text p{
+.Latest-News .card:hover  .card-text{
   color: #2c742f;
+}
+/*customar-says*/
+.customar-says{
+  padding: 40px 0;
+  background-image: url('../img/homepage/customer/Testimonials.webp');
+  background-size: cover;
+  background-position: center; 
+}
+.testimonial{
+    color: #00B207;
+}
+.name-def{
+  color: #999999;
 }
 
 
