@@ -379,5 +379,33 @@ display: flex;
 .name-def{
   color: #999999;
 }
+/*our-info*/
+.our-info{
+  padding: 30px 0;
+}
+.our-info .card{
+  height: 220px;
+}
+.info-icon {
+  padding: 25px;
+  background-image: url('../img/homepage/services/background-blue.svg');
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+}
+.our-info .phone{
+  font-size: 30px;
+  color:#00B207;
+}
+.btn-color{
+  color: #fff;
+  background-color: #00B207;
+}
+
+
 
 
