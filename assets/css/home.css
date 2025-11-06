@@ -244,7 +244,7 @@
 }
 /*Best-seller-products*/
 .Best-seller-products{
-  padding: 50px;
+  padding: 50px 0;
   
 }
 .Best-seller-products .row{
@@ -254,10 +254,6 @@
 }
 .Best-seller-products .logo {
     width: calc((100% - 20px) / 5);
-}
-.Best-seller-products image {
-    width: 200px;
-    height: 200px;
 }
 @media screen and (max-width:991px) {
    .Best-seller-products .logo{
@@ -405,6 +401,8 @@ display: flex;
   color: #fff;
   background-color: #00B207;
 }
+
+
 
 
 

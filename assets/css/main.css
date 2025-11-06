@@ -17,3 +17,18 @@
     line-height: inherit;
     margin-bottom: 0;
 }
+/*footer*/
+.foter{
+  color: #fff;
+  background-color: #1A1A1A;
+  background-image: url('../img/public/foooterBG.webp');
+  background-size: cover;
+ 
+}
+.social-media:hover{
+  background-color: #00B207;
+  border-radius: 50%;
+}
+.Rights{
+        color: #808080;
+}
