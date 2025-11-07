@@ -32,3 +32,16 @@
 .Rights{
         color: #808080;
 }
+.form-check-input:checked {
+    background-color: #00B207; 
+    border-color: #00B207;
+  }
+  .green-btn{
+        background-color: #00B207;
+        border-radius: 30px;
+        text-align: center;
+  }
+.green-btn:hover{
+        background-color: #00B207;
+     
+}
