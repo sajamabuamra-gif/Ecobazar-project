@@ -1,7 +1,7 @@
 .end-form{
         gap: 120px;
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
 .end-form{
         gap: 71px;
 }
